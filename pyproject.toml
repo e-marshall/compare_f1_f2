@@ -1,0 +1,23 @@
+[project]
+name = "compare-f1-f2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Emma Marshall", email = "emarshall@rhg.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.6",
+    "netcdf4>=1.7.2",
+    "numpy>=2.3.3",
+    "xarray>=2025.9.0",
+]
+
+[project.scripts]
+compare-f1-f2 = "compare_f1_f2:main"
+
+[build-system]
+requires = ["uv_build>=0.8.11,<0.9.0"]
+build-backend = "uv_build"
