@@ -5,6 +5,8 @@ import numpy as np
 from collections import defaultdict
 from typing import DefaultDict, Tuple, Type
 
+#specific to bamber19 ice sheets for now 
+
 class Facts1Results:
     
     def __init__(self, 
