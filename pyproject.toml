@@ -12,6 +12,7 @@ dependencies = [
     "matplotlib>=3.10.6",
     "netcdf4>=1.7.2",
     "numpy>=2.3.3",
+    "scipy>=1.16.2",
     "xarray>=2025.9.0",
 ]
 
